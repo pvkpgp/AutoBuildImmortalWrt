@@ -1,5 +1,6 @@
 name: build-x86-64-immortalwrt-23.05.4
-
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 on:
   workflow_dispatch:
     inputs:
